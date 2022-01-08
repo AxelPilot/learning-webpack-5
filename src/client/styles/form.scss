@@ -1,0 +1,29 @@
+.formDiv {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 50px;
+
+    textarea {
+        font-size: 1rem;
+    }
+
+    input {
+        border: 1px solid #979797;
+        font-size: 1rem;
+        padding: 10px 20px;
+        line-height: 16px;
+    }
+
+    input[type="submit"] {
+        background: rgb(224, 239, 255);
+
+        &:hover {
+            transform:scale(0.995, 0.985);
+            background: rgb(212, 232, 255);
+        }
+    }
+}
